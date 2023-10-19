@@ -1,0 +1,30 @@
+.postListContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .post {
+    margin-bottom: 16px;
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .postTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .postBody {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .postTitle:hover {
+    color: #007BFF;
+    cursor: pointer;
+  }
